@@ -6,6 +6,8 @@ var movies = [
   {title: 'Ex Machina'},
 ];
 
-ReactDOM.render(
-  <CommentBox movies={movies}/>, document.getElementById('app')
-);
+// ReactDOM.render(<div>*******testing</div>, document.getElementById('app'));
+// ReactDOM.render(
+//   <MovieList movies={movies}/>, document.getElementById('app')
+// );
+console.log('Hello Kelly');
