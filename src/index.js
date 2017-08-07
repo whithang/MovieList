@@ -6,8 +6,13 @@ var movies = [
   {title: 'Ex Machina'},
 ];
 
-// ReactDOM.render(<div>*******testing</div>, document.getElementById('app'));
+console.log('hello world');
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import MovieList from './MovieList';
+
+ReactDOM.render(<div>*******testing</div>, document.getElementById('app'));
 // ReactDOM.render(
 //   <MovieList movies={movies}/>, document.getElementById('app')
 // );
-console.log('Hello Kelly');
